@@ -1,0 +1,390 @@
+.nav-link{
+    color: white !important;
+}
+.bgmonster{
+    background-color: #00000057 !important;
+    box-shadow: none;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+.imgbanner{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 500px;
+}
+
+.firstbox{
+    text-align: center;
+}
+.firstbox i:hover{
+     -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); 
+    margin-top: -10px;
+    transition: 0.5s;
+}
+
+.firstbox1:hover{
+    color: rgb(93, 170, 81);
+}
+.firstbox2:hover{
+    color: rgb(223, 20, 20);
+}
+.firstbox3:hover{
+    color: rgb(13, 24, 229);
+}
+
+
+.usluga{
+    color: #0071BA;
+    margin-left: 600px;
+    margin-top: 70px;
+}
+/* 3 cardo4ek */
+
+.desc-card {
+    width: 350px;
+    line-height: 0.8;
+    font-weight: bold;
+    color:  black;
+    margin: 0px 20px;
+    
+}
+
+
+
+.desc-card img {
+    width: 320px;
+    margin-left: 15px;
+}
+
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+    padding: 50px;
+    
+}
+
+.desc-card h1 {
+    margin: 0px;  
+    font-weight: 400;
+    font-size: 36px;
+    padding: 15px;
+}
+
+
+.desc-card a{
+    text-decoration: none;
+    font-size:18px ;
+    font-weight: 350;
+    color:#2356c9;
+    margin: 15px;
+    text-align: center;
+}
+
+
+.desc-card h2{
+    margin-left: 30px;
+}
+
+.desc-card{
+    background-image:'https://www.oshcardio.com/img/block3-stac.jpg';
+}
+
+/* pictures */
+
+.container {
+    transition: 0.5s;
+    margin: 0 auto;
+    width: 100%;
+    font-family: sans-serif;
+}
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+.picture div + div {
+    margin-left: 30px;
+}
+.all-picture {
+    margin-top: 30px;
+    width: 350px;
+    height: 370px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.first-picture {
+    background: linear-gradient( rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%) ), url("block1-angio.jpg");
+}
+
+.second-picture {
+    background: linear-gradient( rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)), url("block2-op.jpg");
+}
+
+.third-picture {
+    background: linear-gradient( rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%) ), url("block3-stac.jpg");
+}
+.picture-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pictures-title {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.pictures-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 0.8571em;
+    line-height: 1.35em;
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #C62828
+}
+.all-picture:hover{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.block-service-center {
+    margin-left: 650px;
+    border-radius: 40px;
+    width: 220px;
+    background-color: #EEDDFF;
+    border-radius: 280px/150px;
+  }
+
+.block-service-center a{
+    margin-left: 33px;
+}
+
+/* info */
+
+.info h2{
+    margin-top: 50px;
+    margin-left: 300px;
+    color:#0773A2
+}
+
+.info h5{
+    margin-left: 250px;
+
+}
+
+.colortext {
+    color: red; /* Красный цвет выделения */
+}
+
+
+.circle-image{
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+  }
+  .circle-image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  }
+
+/* Врачи */
+.container1 {
+    margin: 0 auto;
+    width: 100%;
+    font-family: Arial;
+}
+.picture1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+.picture1 div + div {
+    margin-left: 30px;
+}
+.all-picture1 {
+    margin-top: 30px;
+    width: 350px;
+    height: 370px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    
+}
+.first-picture1 {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.40) 0px 3px 8px;
+}
+
+.second-picture1 {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.40) 0px 3px 8px;
+}
+
+.third-picture1 {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.40) 0px 3px 8px;
+}
+
+.picture-content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pictures-title1 {
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+
+.pictures-link1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 0.8571em;
+    line-height: 1.35em;
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #C62828
+}
+
+
+/* \\ */
+.pictures-body{
+    color: gray;
+    -ms-flex: 1 1 auto;
+    -webkit-box-flex: 1;
+    padding: 1.55rem;
+    flex: 1 1 auto;
+}
+
+/* visitka */
+
+.circle-image1{
+    box-shadow: rgba(0, 0, 0, 0.34) 0px 3px 8px;
+    margin-bottom: 150px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+  }
+  .circle-image1 img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  }
+
+
+  /*    ////////////////// связь */
+
+.containermain{
+    display: flex;
+    margin-left: 200px;
+}
+
+.container123 {
+    display: flex;
+    justify-content: center;
+    margin-top: 58px;
+    height: 350px;
+}
+
+.card123 {
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-right: 170px;
+    line-height: 1.5;
+    font-weight: bold;
+    color:  black
+}
+
+
+
+.card123 div {
+    background-color: rgb(255, 162, 0) ;
+    text-align: center;
+}
+
+.card123 a{
+    margin-top: 70px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size:40px ;
+    font-weight: 350;
+    color:#2356c9;
+}
+.card123 a:hover{
+    color: #00b294;
+    text-decoration: underline;
+}
+
+.botton{
+    width: 200px;
+    background-color: #D41B1B;
+    margin-left: 140px;
+    border-radius: 30px;
+    margin-top: 30px;
+    width: 250px;
+    height: 40px;
+}
+
+
+/* \\\\\\\\\\\\next свзязь */
+
+.card-body a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.card-body a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.card-body hr{
+    width: 250px;
+}
+
+/* MAP */
+
+.map-container-4{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-4 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
