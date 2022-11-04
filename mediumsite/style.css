@@ -1,0 +1,11 @@
+.block-left{
+    width:60%;
+    ;overflow:auto;
+    float:left;
+}
+
+
+.block-right{
+    width:40%;
+    overflow:auto;
+}

@@ -1,0 +1,10 @@
+.header button{
+    width: 100px;
+    height: 30px;
+}
+
+
+.header li{
+    list-style-type: none;
+    width: 50px;
+}
